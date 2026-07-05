@@ -59,6 +59,22 @@ tokens are managed by `mcp-remote` in your local user profile. You can revoke
 access at any time from your Person Bio account settings, or by removing the
 extension in Claude Desktop.
 
+## For reviewers
+
+A fully-populated demo account is ready:
+
+- **Email:** `reviewer@person.bio`
+- **Password:** `PersonBioReview2026!` (email pre-verified)
+
+After installing, say *"Show me my résumé"* to trigger sign-in, then try:
+*"Add Docker to my skills."* · *"Rewrite my professional summary to be more
+impactful."* · *"Write a self-introduction I can use for networking."* ·
+*"Give me my résumé as a Markdown document."* All are verified working.
+
+## Security
+
+See [SECURITY.md](./SECURITY.md) for how to report a vulnerability.
+
 ## License
 
 MIT — see [LICENSE](./LICENSE).
