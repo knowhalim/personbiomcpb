@@ -61,10 +61,8 @@ extension in Claude Desktop.
 
 ## For reviewers
 
-A fully-populated demo account is ready:
-
-- **Email:** `reviewer@person.bio`
-- **Password:** `PersonBioReview2026!` (email pre-verified)
+A fully-populated demo account is ready; **credentials are provided privately in
+the directory submission** (not published here).
 
 After installing, say *"Show me my résumé"* to trigger sign-in, then try:
 *"Add Docker to my skills."* · *"Rewrite my professional summary to be more
