@@ -1,0 +1,10 @@
+{
+  "name": "personbio-mcpb-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bundled remote-MCP bridge for the Person Bio Claude Desktop extension. Proxies Claude Desktop stdio to the Person Bio remote MCP server over OAuth.",
+  "license": "MIT",
+  "dependencies": {
+    "mcp-remote": "0.1.38"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "manifest_version": "0.3",
+  "name": "personbio",
+  "display_name": "Person Bio",
+  "version": "1.0.0",
+  "description": "Read and update your Person Bio career profile — résumé, life journey, blog and more — right inside Claude, just by chatting.",
+  "long_description": "Person Bio turns your résumé and career story into something Claude can read and edit. This desktop extension connects Claude to your Person Bio account over a secure remote MCP server. Ask Claude to show your résumé, add roles and skills, rewrite your summary using a built-in résumé-craft guide, map your career journey, generate a networking self-introduction, or export a clean Markdown résumé — all against your live profile, with your approval on every action. No secrets are stored in the extension: it signs you in with OAuth in your browser.",
+  "author": {
+    "name": "knowhalim",
+    "url": "https://github.com/knowhalim"
+  },
+  "homepage": "https://person.bio",
+  "documentation": "https://github.com/knowhalim/personbiomcpb",
+  "support": "https://person.bio/contact",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/knowhalim/personbiomcpb"
+  },
+  "license": "MIT",
+  "keywords": ["resume", "cv", "career", "bio", "mcp", "personbio"],
+  "icon": "icon.png",
+  "privacy_policies": ["https://person.bio/p/privacy-policy"],
+  "server": {
+    "type": "node",
+    "entry_point": "server/node_modules/mcp-remote/dist/proxy.js",
+    "mcp_config": {
+      "command": "node",
+      "args": [
+        "${__dirname}/server/node_modules/mcp-remote/dist/proxy.js",
+        "https://person.bio/api/v1/mcp"
+      ]
+    }
+  }
+}
